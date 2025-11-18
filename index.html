@@ -1,0 +1,64 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Insights Section</title>
+  <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+ <!-- Hamburger -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Navigation (you can add your real menu items here) -->
+  <nav>
+    <ul id="menu">
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main hero section -->
+  <section class="hero">
+    <div class="content">
+      <h1>Get insights that help<br>your business grow.</h1>
+      <p>Discover the benefits of data analytics and make<br>better decisions regarding revenue, customer<br>experience, and overall efficiency.</p>
+
+      <div class="stats">
+        <div class="stat-item">
+          <h3>10k+</h3>
+          <p>COMPANIES</p>
+        </div>
+        <div class="stat-item">
+          <h3>314</h3>
+          <p>TEMPLATES</p>
+        </div>
+        <div class="stat-item">
+          <h3>12M+</h3>
+          <p>QUERIES</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-side">
+      <!-- Replace with your actual office image URL -->
+      <img src="image-header-desktop.jpg" alt="Team working with data analytics">
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.hamburger').classList.toggle('active');
+      document.getElementById('menu').classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
