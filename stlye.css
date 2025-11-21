@@ -65,6 +65,7 @@
       font-size: 48px;
       line-height: 1.2;
       margin-bottom: 24px;
+      margin-top: 50px;
     }
     .content p {
       font-size: 18px;
@@ -116,7 +117,7 @@
     }
 
     @media (max-width: 768px) {
-      .hamburger { display: block; }
+      .hamburger { display: inline-block; }
       nav ul { 
         position: fixed;
         top: 0; right: -100%;
