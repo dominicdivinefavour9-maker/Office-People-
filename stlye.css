@@ -120,7 +120,7 @@
       .hamburger { display: inline-block; }
       nav ul { 
         position: fixed;
-        top: 0; right: -100%;
+        top: 0; right: -150%;
         height: 100vh;
         width: 280px;
         background: rgba(30,0,63,0.98);
